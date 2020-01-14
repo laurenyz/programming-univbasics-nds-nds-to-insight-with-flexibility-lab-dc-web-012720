@@ -1,0 +1,7 @@
+def gross_per_studio(collection)
+collection = [{movie1 data}, {movie2 data}, ... ]
+return = {studio1 => worldwide_gross, studio2 => worldwide_gross, ...}
+
+
+ 
+end
