@@ -7,7 +7,11 @@ result = {}
   while index < collection.length do 
     studio = collection[index][:studio]
     if result[studio]
-      result[studio] 
+      result[studio] += collection[index][:worldwide_gross]
+    else
+      result[studio] = collection[index][:worldwide_gross]
+    end
+    index += 1
   end 
- 
+ result
 end
